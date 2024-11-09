@@ -1,0 +1,20 @@
+CREATE TABLE DietAsist.`message` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `msg` varchar(2000) DEFAULT NULL,
+  `is_bot` tinyint(1) DEFAULT NULL,
+  `color` varchar(50) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `Chat_id` int NOT NULL,
+  `list_result` varchar(300) DEFAULT NULL,
+  `peruvian_dishes_id` int DEFAULT NULL,
+  `f_Porcion` int DEFAULT NULL,
+  `f_Calorias` int DEFAULT NULL,
+  `f_Carbohidratos` double DEFAULT NULL,
+  `f_Proteinas` double DEFAULT NULL,
+  `f_Grasas` double DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `Message_Chat` (`Chat_id`),
+  KEY `Message_PeruvianDishes` (`peruvian_dishes_id`),
+  CONSTRAINT `Message_Chat` FOREIGN KEY (`Chat_id`) REFERENCES `chat` (`id`),
+  CONSTRAINT `Message_PeruvianDishes` FOREIGN KEY (`peruvian_dishes_id`) REFERENCES `peruviandishes` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1605 DEFAULT CHARSET=utf8mb3;
