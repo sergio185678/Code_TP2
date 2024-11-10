@@ -1,0 +1,5 @@
+Pasos Windows:
+
+-	py -3 -m venv .venv
+-	.venv\Scripts\activate
+-	flask --app index run

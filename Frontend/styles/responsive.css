@@ -1,0 +1,491 @@
+@media (max-width: 1700px) {
+    .res-cont {
+        width: 60%;
+    }
+}
+@media (max-width: 1600px) {
+    .registerform {
+      width: 40%; /* Ajusta el tamaño del formulario para tablets */
+    }
+    .register-t3 {
+        font-size: 20px;
+    }
+    .register-content {
+        width: 85%;
+    }
+    .vaccountform {
+        width: 40%;
+    }
+    .edit-param-tab {
+        width: 40%;
+    }
+    .edit-info-tab {
+        width: 40%;
+    }
+    .add-ing-tab {
+        width: 40%;
+    }
+
+    /*Chat*/
+    .recipe-popup {
+        width: 40%;  /* Adjust the width as needed */
+    }
+}
+
+@media (max-width: 1500px) {
+    .res-cont {
+        width: 70%;
+    }
+    .res-cont-ext {
+        flex-direction: column;
+    }
+    .nut-info {
+        height: 110px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .loginform {
+        width: 40%; /* Ajusta el tamaño del formulario para tablets */
+      }
+    .registerform {
+        width: 50%;
+    }
+    .terms-os {
+        width: 70%;
+    }
+    .vaccountform {
+        width: 50%;
+    }
+
+    /*Profile*/
+    .profile-tab {
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    .p-section {
+        margin-top: 40px;
+        width: 70%;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 500px;
+    }
+    .p-info {
+        width: 50%;
+        height: auto;
+    }
+    .i-list {
+        margin-top: 0px;
+        width: 40%;
+    }
+    .m-parameters {
+        width: 70%;
+        height: 700px;
+        margin-top: 20px;
+        margin-bottom: 130px;
+    }
+    .parameter {
+        height: 50px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .parsection1 {
+        width: 50%;
+        padding-left: 2%;
+    }
+    .parsection2 {
+        width: 50%;
+        padding-right: 2%;
+    }
+    .edit-param-tab {
+        width: 50%;
+    }
+    .edit-info-tab {
+        width: 50%;
+    }
+    .add-ing-tab {
+        width: 50%;
+    }
+
+    /*Chat*/
+    .result-btn {
+        width: 30%;
+    }
+    .ingredient-container {     
+        width: 90%;                
+    }
+    .recipe-popup {
+        width: 50%;  /* Adjust the width as needed */
+    }
+    .nut-info {
+        height: 110px;
+    }
+    .res-cont {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .loginform {
+      width: 55%; /* Ajusta el tamaño del formulario para tablets */
+    }
+    .registerform {
+        width: 60%;
+    }
+    .vaccountform {
+        width: 60%;
+    }
+
+    /*Profile*/
+    .i-list {
+        width: 45%;
+    }
+    .edit-param-tab {
+        width: 60%;
+    }
+    .edit-info-tab {
+        width: 60%;
+    }
+    .add-ing-tab {
+        width: 60%;
+    }
+
+    /*Chat*/
+    .result-btn {
+        width: 40%;
+    }
+}
+  
+@media (max-width: 768px) {
+    .login-content {
+        width: 85%;
+    }
+    .loginform {
+      width: 70%; /* Ajusta el tamaño del formulario para pantallas más pequeñas */
+    }
+    .input-v1-ce, .input-v1-c {
+      height: 50px; /* Disminuye la altura de los inputs */
+      padding-right: 30px; /* Reduce el espacio a la derecha */
+      font-size: 20px;
+    }
+    .btn-login {
+      height: 50px; /* Reduce la altura del botón en dispositivos móviles */
+    }
+    .login-t1 {
+      font-size: 30px;
+    } 
+    .login-t2 {
+      font-size: 20px;
+    } 
+    .login-t3 {
+      font-size: 16px;
+    }
+    .login-t4 {
+      font-size: 20px;
+    }
+    .login-t5 {
+      font-size: 20px;
+    }
+    
+    /*register*/
+    .registerform {
+        width: 70%;
+    }
+    .input-v2-nc, .input-v2-c, .input-v2-ce {
+        height: 50px; /* Disminuye la altura de los inputs */
+        padding-right: 30px; /* Reduce el espacio a la derecha */
+        font-size: 20px;
+    }
+    .register-t1 {
+        font-size: 30px;
+    }
+    .register-t2, .register-t4, .register-t5 {
+        font-size: 20px;
+    }
+
+    /*Terms*/
+    .terms-os {
+        width: 80%;
+    }
+    .terms-container {
+        max-height: 450px;
+    }
+
+    /*verify*/
+    .vaccountform {
+        width: 70%;
+    }
+    .passr-t1 {
+        font-size: 30px;
+    }
+    .passr-t2, .passr-t3 {
+        font-size: 20px;
+    }
+    .btn-passrcy {
+        height: 50px;
+    }
+    .passr-content {
+        width: 85%;
+    }
+    .code-input {
+        width: 60%;
+    }
+    .input-v3 {
+        height: 65px;
+        font-size: 40px;
+    }
+    .passr-t4 {
+        font-size: 16px;
+    }
+
+    /*Profile*/
+    .p-section {
+        margin-top: 50px;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .p-info {
+        width: 100%;
+    }
+    .i-list {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .m-parameters {
+        width: 80%;
+    }
+    .parameter {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .mp-tittle {
+        margin-top: 15px;
+    }
+    .last-parameter {
+        margin-bottom: 15px;
+    }
+    .p-info-row {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .edit-param-tab {
+        width: 75%;
+    }
+    .edit-info-tab {
+        width: 75%;
+    }
+    .add-ing-tab {
+        width: 75%;
+    }
+
+    /*chat*/
+    .chat-area {
+        width: 90%; 
+    }
+    .chat-bubble, .chat-bubble-2, .chat-bubble-2-dropdown {
+        max-width: 70%;
+    }
+    .chat-bubble-3 {
+        max-width: 70%;
+    }
+    .bot-pic {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .user-pic {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .result-btn {
+        width: 45%;
+    }
+    .recipe-popup {
+        width: 70%;  /* Adjust the width as needed */
+        height: 60%;  /* Set a fixed height */
+    }
+
+    /*Dropdown button*/
+}
+
+@media (max-width: 480px) {
+    .login-logo {
+        width: 220px;
+        height: 70px;
+    }
+    .register-logo {
+        width: 220px;
+        height: 70px;
+    }
+    .loginform {
+      width: 85%; /* Formulario más pequeño para pantallas móviles */
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .input-v1-ce, .input-v1-c {
+      height: 35px; /* Disminuye la altura de los inputs */
+      font-size: 16px;
+      padding-left: 8px;
+      padding-right: 20px;
+    }
+    .btn-login {
+      height: 45px; /* Reduce más el tamaño del botón */
+    }
+    .login-t1 {
+      font-size: 24px;
+    }
+
+    .login-t2 {
+      font-size: 18px;
+    }
+    .login-t3 {
+      font-size: 16px;
+    }
+    .login-t4 {
+      font-size: 16px;
+    }
+    .login-t5 {
+      font-size: 16px;
+    }
+
+    /*register*/
+    .registerform {
+        width: 85%;
+    }
+    .input-v2-nc, .input-v2-c, .input-v2-ce {
+        height: 35px; /* Disminuye la altura de los inputs */
+        padding-left: 8px;
+        font-size: 16px;
+    }
+    .register-t1 {
+        font-size: 24px;
+    }
+    .register-t3, .register-t5 {
+        font-size: 16px;
+    }
+    .register-t2, .register-t4 {
+        font-size: 18px;
+    }
+    /*Terms*/
+    .terms-os {
+        width: 90%;
+    }
+
+    /*verify*/
+    .vaccountform {
+        width: 85%;
+    }
+    .passr-t1 {
+        font-size: 24px;
+    }
+    .passr-t2 {
+        font-size: 16px;
+    }
+    .passr-t3 {
+        font-size: 18px;
+    }
+    .btn-passrcy {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        height: 45px;
+    }
+    .code-input {
+        width: 68%;
+    }
+    .input-v3 {
+        font-size: 30px;
+    }
+
+    /*Profile*/
+    .pf-title1 {
+        font-size: 16px;
+      }
+      
+    .pf-title2 {
+        font-size: 20px;
+    }
+    .mp-tittle {
+        font-size: 20px;
+    }
+    .edit-param-tab {
+        width: 80%;
+    }
+    .edit-text {
+        font-size: 18px;
+    }  
+    .edit-text2 {
+        font-size: 16px;         /* text-[18px] */
+    }
+    .edit-text3 {
+        font-size: 16px; 
+    }
+    .dropdown-text {
+        font-size: 16px !important;
+    }
+    .edit-info-tab {
+        width: 80%;
+    }
+    .add-ing-tab {
+        width: 80%;
+    }
+
+    /*chat*/
+    .chat-area {
+        width: 95%; 
+    }
+    .chat-bubble, .chat-bubble-2{
+        max-width: 75%;
+    }
+    .chat-bubble-2-dropdown {
+        max-width: 90%;
+    }
+    .chat-bubble-3 {
+        max-width: 90%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .bot-pic {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    .user-pic {
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .response-area-2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .result-btn {
+        width: 50%;
+    }
+    .ingredient-container {     
+        width: 95%;                
+    }
+    .list-container {
+        width: 45%;                
+    }
+    .recipe-popup {
+        width: 85%;  /* Adjust the width as needed */
+    }
+    .chath-section:hover .name-tag{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .res-cont {
+        width: 90%;
+    }
+    .res-name {
+        font-size: 18px;
+    }
+    .res-name-2 {
+        font-size: 12px;
+    }
+}
